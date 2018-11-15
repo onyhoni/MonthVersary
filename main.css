@@ -1,0 +1,226 @@
+/* Navbar */
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: viga;
+    font-size: 32px;
+}
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+ }
+/* Jumbotron */
+ .jumbotron {
+     background-image: url(img/DSC08356.jpg);
+     background-size:cover;
+     height:600px;
+     position: relative;
+ 
+ }
+ .jumbotron .container {
+     z-index: 1;
+     position: relative;
+ }
+ .jumbotron::after {
+     content: '';
+     display: block;
+     width: 100%;
+     height: 100%;
+     background-image: linear-gradient(to top,rgba(0,0,0,1), rgba(0,0,0,0));
+     position: absolute;
+     bottom: 0;
+ }
+ .jumbotron ,.display-4 ,.lead {
+     color:white !important;
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+ }
+
+ /* Feature */
+
+ .feature img {
+     width: 80px;
+     height: 80px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+ }
+ .feature{
+     background-color:white;
+     box-shadow:0 3px 20px rgba(0, 0, 0, 0.7);
+     border-radius: 12px;
+     padding: 30px;
+     margin-top: -100px;
+ }
+
+ .feature h4 {
+     font-size: 18px;
+     color: #2A3D52;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin-top: 5px;
+
+ }
+ .feature p {
+     font-size: 12px;
+     color: #2A3D52;
+     
+ }
+ .Gallery {
+     margin-top: 63px;
+     margin-left: 2px;
+     
+ }
+ .Gallery img {
+    margin-top: 10px;
+ }
+ .Gallery .thumbnail {
+     background-color: black;
+     padding: 20px;
+     
+ }
+ .Gallery h4 {
+     text-align: center;
+     font-size: 40px;
+     text-transform: uppercase;
+     color:#2A3D52;
+     margin-top: 100px;
+     font-weight: bold;
+ }
+
+ .Gallery p {
+     text-align: center;
+     font-size: 16px;
+     color: #2A3D52;
+     margin-top: 50px;
+     font-style: italic;
+ }
+ /* Inline */
+    .inline {
+        border: 3px solid black;
+        margin-top: 70px;
+    }
+
+ /* Content */
+ .content {
+    box-shadow:0 3px 20px rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    
+ }
+ .pertama img {
+     border-radius: 50px;
+     height: 60px;
+     width: 60px;
+ }
+ .pertama p {
+     font-size: 16px;
+     font-style: italic;
+     margin-top: 5px;
+     color: #2A3D52
+
+ }
+ .pertama H4 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2A3D52;
+    text-align: right;
+    
+ }
+ .kedua .ketiga img {
+    width: 60px;
+    height: 60px;
+ }
+
+ .ketiga img {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+ }
+ .ketiga p {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 5px;
+    color: #2A3D52
+
+ }
+ .content2{
+    box-shadow:0 3px 20px rgba(0, 0, 0, 0.7);
+    padding: 15px;
+
+ }
+ .content2 img {
+     width: 60px;
+     height: 60px;
+     border-radius: 50px;
+     margin-top: 70px;
+ }
+ .content2 h4 {
+     font-size: 40px;
+     font-weight: bold;
+     color: #2A3D52;
+     text-align: left;
+ }
+ .content2 p {
+     font-size: 20px;
+     color: #2A3D52;
+     margin-top: 70px;
+ }
+ .Hcontent {
+     margin-top: 75px;
+ }
+ /* Footer */
+ .footer h1 {
+     text-align: center;
+     margin: 100px 0; ;
+     color:rgba(0, 0, 0, 0.5);
+ }
+ /* Utility */
+ .tombol {
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+ .jumbotron {
+     text-align: center;
+ }
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px) {
+
+ .navbar-brand, .nav-link {
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+     color: white !important;
+
+ }
+ .nav-link:hover::after{
+     content: '';
+     display: block;
+     border-bottom: 3px solid #1C46EC;
+     width: 50%;
+     margin: auto;
+     padding-bottom: 5px;
+     margin-bottom: -8px;
+ }
+ .jumbotron{
+    margin-top: -75px;
+    text-align: center;
+
+ }
+ .jumbotron .display-4{
+     margin-left: 500px;
+     margin-top:100px;
+     font-size: 62px;
+  
+ }
+ .jumbotron .lead {
+     font-size: 33px;
+     margin-left: 220px;
+
+
+ }
+ .jumbotron a {
+    margin-left: 220px;
+
+ }
+ }
